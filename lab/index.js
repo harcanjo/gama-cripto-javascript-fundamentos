@@ -12,8 +12,22 @@
 // 'https://www.mercadobitcoin.net/api/BTC/day-summary/2013/6/20/'
 
 // Synchronous
+/*
 const nameMI = 'Miriam';
 const greeting = `Hello, my name is ${nameMI}!`;
 console.log(greeting);
+*/
 // "Hello, my name is Miriam!"
 
+// Date
+var today = new Date();
+var year = today.getFullYear();
+console.log("🚀 ~ file: index.js ~ line 25 ~ year", year)
+
+// Month name
+const todayName = new Date();
+console.log(todayName.toLocaleString('default', { month: 'long' }));
+console.log(todayName.toLocaleString('default', { month: 'short' }));
+
+const todayPt = new Date();
+console.log(todayPt.toLocaleString('pt-BR', { month: 'long' }));
