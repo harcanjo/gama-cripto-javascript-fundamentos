@@ -20,6 +20,7 @@ console.log(greeting);
 // "Hello, my name is Miriam!"
 
 // Date
+/*
 var today = new Date();
 var year = today.getFullYear();
 console.log("🚀 ~ file: index.js ~ line 25 ~ year", year)
@@ -30,4 +31,14 @@ console.log(todayName.toLocaleString('default', { month: 'long' }));
 console.log(todayName.toLocaleString('default', { month: 'short' }));
 
 const todayPt = new Date();
+console.log("🚀 ~ file: index.js ~ line 33 ~ todayPt", todayPt)
 console.log(todayPt.toLocaleString('pt-BR', { month: 'long' }));
+*/
+
+// Functions
+function square(num){
+    return num * num;
+}
+
+square(2);
+console.log("🚀 ~ file: index.js ~ line 42 ~ square(2)", square(2))
