@@ -36,9 +36,16 @@ console.log(todayPt.toLocaleString('pt-BR', { month: 'long' }));
 */
 
 // Functions
+/*
 function square(num){
     return num * num;
 }
 
 square(2);
 console.log("🚀 ~ file: index.js ~ line 42 ~ square(2)", square(2))
+*/
+
+
+// W3Schools
+// Intro JS
+document.getElementById("demo").innerHTML = "Hello JavaScript";
