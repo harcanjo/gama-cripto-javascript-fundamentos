@@ -53,3 +53,8 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 // screen width
 let width = screen.width;
 console.log("🚀 ~ file: index.js ~ line 55 ~ width", width);
+
+
+// let
+let x = "John Doe";
+console.log("🚀 ~ file: index.js ~ line 59 ~ x", x)
