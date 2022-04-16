@@ -49,3 +49,7 @@ console.log("🚀 ~ file: index.js ~ line 42 ~ square(2)", square(2))
 // W3Schools
 // Intro JS
 document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+// screen width
+let width = screen.width;
+console.log("🚀 ~ file: index.js ~ line 55 ~ width", width);
